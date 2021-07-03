@@ -14,6 +14,9 @@ Below are the criterions on which you can filter the data for your analysis. Eac
 
 ![image](https://user-images.githubusercontent.com/82654977/124367245-7a5fd900-dc23-11eb-8739-69a5fd8ea294.png)
 
+Refer to the image below to put in the search criterion. You can use lower or upper case letters and fill one or more search filters. 
+
+![image](https://user-images.githubusercontent.com/82654977/124368057-117c5f00-dc2b-11eb-92bb-b2c8905f1de4.png)
 
 ### TECHNOLOGIES 
 
