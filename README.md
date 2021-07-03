@@ -24,9 +24,9 @@ Below are the criterions on which you can filter the data for your analysis. Eac
 
 #### SUMMARY
 ##### **DRAWBACK:**
-* Text fields are provided for each of the filters giving a chance to user generated errors while searching. Eg:currently, the search fields are case-sensitive so manually entering data can give back no results.
+* Text fields are provided for each of the filters giving a chance of user generated errors while searching. 
 
 ##### **RECOMMENDATIONS:**
 * We can add scatter plots or heat maps to our site to give a visual representation of the sightings for a quick understanding of data.
-* Case-sensitivity to be removed and string searches can be provided in order to give more flexibilty while searching.
+* String searches can be provided in order to give more flexibilty while searching. Eg: part of the city name can be provided instead of full name to widen the search. 
 
