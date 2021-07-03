@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="static/css/style.css">
-    <script type "text/javascript" src = "js/app.js"></script>
+    
 </head>
 <body class="bg-dark">
     <div class="wrapper">
@@ -50,9 +50,27 @@
                                         <label for="date">Enter Date</label>
                                         <input type="text" placeholder="1/10/2010" id="datetime" />
                                     </li>
-                                    <li class="bg-dark list-group-item">
+                                    <!--Deleting filter table button for the challenge and instead looking for on change events in js.-->
+                                    <!--<li class="bg-dark list-group-item">
                                         <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                                    </li>> -->
+                                    <li class="bg-dark list-group-item">
+                                        <label for="city">Enter a City</label>
+                                        <input type="text" placeholder="roswell" id="city_id" />
                                     </li>
+                                    <li class="bg-dark list-group-item">
+                                        <label for="state">Enter a State</label>
+                                        <input type="text" placeholder="ca" id="state_id" />
+                                    </li>
+                                    <li class="bg-dark list-group-item">
+                                        <label for="country">Enter a Country</label>
+                                        <input type="text" placeholder="us" id="country_id" />
+                                    </li>
+                                    <li class="bg-dark list-group-item">
+                                        <label for="shape">Enter a Shape</label>
+                                        <input type="text" placeholder="circle" id="shape_id" />
+                                    </li>
+
                                 </ul>
                             </div>
                         </p>
