@@ -70,19 +70,19 @@ function updateFilters() {
   let shape = filters.shape_id
 
   if (date) {
-    filteredData = filteredData.filter(row => row.datetime === date);
+    filteredData = filteredData.filter(row => row.datetime=== date);
   };
   if (city){
-    filteredData = filteredData.filter(row =>row.city === city); 
+    filteredData = filteredData.filter(row =>row.city.toLowerCase()  === city.toLowerCase() ); 
       };
   if (state){
-    filteredData = filteredData.filter(row =>row.state === state) ;
+    filteredData = filteredData.filter(row =>row.state.toLowerCase() === state.toLowerCase()) ;
           };
   if (country){
-    filteredData = filteredData.filter(row =>row.country === country) ;
+    filteredData = filteredData.filter(row =>row.country.toLowerCase() === country.toLowerCase()) ;
               };
   if (shape){
-    filteredData = filteredData.filter(row =>row.shape === shape) ;
+    filteredData = filteredData.filter(row =>row.shape.toLowerCase() === shape.toLowerCase()) ;
       }  ;
 
 // 10. Finally, rebuild the table using the filtered data
